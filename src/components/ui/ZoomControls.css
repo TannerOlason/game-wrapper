@@ -1,0 +1,39 @@
+.zoom-in-button,
+.zoom-out-button {
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 4px;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  padding: 5px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+}
+.zoom-in-button:hover,
+.zoom-out-button:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.current-zoom {
+  background-color: black;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 10px;
+  height: 30px;
+  margin: 5px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+.zoom-controls-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
